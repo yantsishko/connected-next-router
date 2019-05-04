@@ -1,6 +1,6 @@
 {
   "name": "connected-next-router",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A Redux binding for Next.js Router",
   "main": "lib/index.js",
   "author": "Daniel Reinoso <danielreinoso1807@gmail.com> (http://danielr18.github.io)",
@@ -45,7 +45,7 @@
     "cross-env": "^5.2.0",
     "eslint": "^5.7.0",
     "eslint-plugin-import": "^2.14.0",
-    "eslint-plugin-react": "^7.11.0",
+    "eslint-plugin-react": "^7.11.0"
   },
   "repository": {
     "type": "git",
