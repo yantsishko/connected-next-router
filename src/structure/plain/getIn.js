@@ -10,12 +10,14 @@ const getIn = (state, path) => {
     return undefined
   }
 
-  let result = state
-  for (let i = 0; i < length && !!result; ++i) {
-    result = result[path[i]]
-  }
-
-  return result
+  return state.getIn(path);
+  //
+  // let result = state
+  // for (let i = 0; i < length && !!result; ++i) {
+  //   result = result[path[i]]
+  // }
+  //
+  // return result
 }
 
 export default getIn

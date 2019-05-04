@@ -1,6 +1,7 @@
 import locationFromUrl from './locationFromUrl'
+import { fromJS } from 'immutable'
 
-const createInitialRouterState = ({ fromJS }) => (url = '/') => fromJS({
+const createInitialRouterState = () => (url = '/') => fromJS({
   location: locationFromUrl(url),
   action: 'POP'
 })
